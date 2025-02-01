@@ -1,0 +1,11 @@
+#about {
+    background: #f8f9fa;
+    padding: 60px 0;
+}
+
+.about-text {
+    color: #1A1A1A;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Baskervville", serif !important;
+}

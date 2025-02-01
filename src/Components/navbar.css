@@ -1,0 +1,15 @@
+.title-text {
+    color: #57BFE4;
+    font-size: 32px;
+}
+
+.nav-link {
+    color: #1A1A1A;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link.active {
+    color: #1A1A1A !important;
+    font-weight: 700;
+}

@@ -1,0 +1,12 @@
+.hero-section {
+    background: url('/src/Assets/hero.jpg') center/cover no-repeat;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    background-size: contain;
+    width: 100%;
+}

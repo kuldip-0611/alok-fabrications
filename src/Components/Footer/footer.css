@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-link {
+    color: #1A1A1A;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #007bff;
+}
+
+.footer-email {
+    color: #1A1A1A;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-email:hover {
+    color: #007bff;
+}
