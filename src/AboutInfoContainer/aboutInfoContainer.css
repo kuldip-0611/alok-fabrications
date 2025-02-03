@@ -1,0 +1,13 @@
+.about-info-container {
+    max-width: 660px;
+}
+
+.title-text {
+    color: #57BFE4;
+    font-size: 40px;
+}
+
+.description-text {
+    font-size: 18px;
+    color: #1A1A1A;
+}

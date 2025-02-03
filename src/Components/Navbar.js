@@ -1,10 +1,11 @@
-import { Navbar, Nav, Container, NavLink } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../../src/Assets/logo.png";
 import "./navbar.css";
+import { NavLink } from "react-router-dom";
 
 const CustomNavbar = () => {
   return (
-    <Navbar expand="lg" className="bg-light">
+    <Navbar expand="lg">
       <Container>
         <Navbar.Brand href="/" className="d-flex align-items-center">
           <img
