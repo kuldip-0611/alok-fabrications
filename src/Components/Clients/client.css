@@ -5,3 +5,27 @@
     color: #1A1A1A;
     font-weight: 700;
 }
+
+#clients {
+    background: #f8f9fa;
+    overflow: hidden; /* Prevent horizontal scroll */
+}
+
+#clients img.Client {
+    background-color: #ffffff;
+    height: 50px;
+    width: auto;
+}
+
+#clients .slider-width {
+    width: 100%; /* Ensure the slider takes full width */
+    max-width: 100%; /* Prevent exceeding the viewport width */
+    margin: 0 auto; /* Center the slider */
+}
+
+/* Additional styles to ensure images are responsive */
+#clients .slick-slide img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; /* Center images within the slide */
+}

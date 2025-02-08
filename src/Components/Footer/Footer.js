@@ -1,39 +1,63 @@
+// eslint-disable-next-line
 import { Container, Row, Col } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Navbar, Nav } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 import "./footer.css";
+import mailIcon from "../../Assets/mailIcon.png";
 
 const Footer = () => {
   return (
-    <footer className="footer text-light py-3">
-      <Container>
-        <Row className="justify-content-between align-items-center flex-wrap">
-          <Col className="text-start justify-content-start">
-            <p className="mb-0 text-start">
-              © 2025 Alok Fabrications | Contact:{" "}
-              <a
-                href="mailto:alokfabrications@gmail.com"
-                className="footer-email text-start"
-              >
+    <footer class="text-center">
+      <div class="container pt-1">
+        <hr className="footer_horizontal_line" />
+        <div class="row">
+          <div class="col-md-12 footer-section">
+            <p className="m-2">Copyright ©2025. Alok fabrications.</p>
+            <Navbar className="footer-navbar ">
+              <Container>
+                <Navbar.Collapse className="flex-wrap" id="basic-navbar-nav">
+                  <Nav className="ms-auto">
+                    <NavLink
+                      to="/"
+                      className="nav-link"
+                      activeClassName="active"
+                    >
+                      Home
+                    </NavLink>
+                    <NavLink
+                      to="/about"
+                      className="nav-link"
+                      activeClassName="active"
+                    >
+                      About Us
+                    </NavLink>
+                    <NavLink
+                      to="/products"
+                      className="nav-link"
+                      activeClassName="active"
+                    >
+                      Products
+                    </NavLink>
+                    <NavLink
+                      to="/contact"
+                      className="nav-link"
+                      activeClassName="active"
+                    >
+                      Contact Us
+                    </NavLink>
+                  </Nav>
+                </Navbar.Collapse>
+              </Container>
+            </Navbar>
+            <p className="m-2 mail-footer">
+              <img src={mailIcon} alt="mail icon" height={15} width={16.85} />
+              <a href="mailto:alokfabrications@gmail.com">
                 alokfabrications@gmail.com
               </a>
             </p>
-          </Col>
-          <Col className="d-flex flex-wrap gap-4 justify-content-end">
-            <Link to="/" className="footer-link">
-              Home
-            </Link>
-            <Link to="/about" className="footer-link">
-              About Us
-            </Link>
-            <Link to="/products" className="footer-link">
-              Products
-            </Link>
-            <Link to="/contact" className="footer-link">
-              Contact Us
-            </Link>
-          </Col>
-        </Row>
-      </Container>
+          </div>
+        </div>
+      </div>
     </footer>
   );
 };

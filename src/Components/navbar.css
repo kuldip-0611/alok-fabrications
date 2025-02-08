@@ -10,6 +10,24 @@
 }
 
 .nav-link.active {
-    color: #1A1A1A !important;
+    color: #57BFE4 !important;
     font-weight: 700;
+
+    
+}
+
+/* Adjust font size on smaller screens */
+@media (max-width: 768px) {
+    .title-text {
+        font-size: 24px !important;
+        width: 80%;
+    }
+    .nav-link {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .navbar-nav {
+        width: 100%;
+    }
 }

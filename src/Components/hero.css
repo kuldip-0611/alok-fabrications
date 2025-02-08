@@ -1,5 +1,5 @@
 .hero-section {
-    background: url('/src/Assets/hero.jpg') center/cover no-repeat;
+    background: url('/src/Assets/hero.png') center/cover no-repeat;
     height: 80vh;
     display: flex;
     align-items: center;
@@ -10,3 +10,9 @@
     background-size: contain;
     width: 100%;
 }
+
+.custom-img {
+    height: 650px;
+    object-fit: cover; /* Ensures the image fills the area without stretching */
+  }
+  
