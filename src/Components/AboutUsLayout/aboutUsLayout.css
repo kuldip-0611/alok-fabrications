@@ -113,6 +113,7 @@
     .sidebar.show {
         transform: translateX(0%); /* Start off-screen */
         display: flex !important;
+        
         flex-direction: row-reverse;
         border-radius: 0;
         background-color: #ffffff;
