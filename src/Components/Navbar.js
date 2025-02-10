@@ -1,5 +1,6 @@
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../../src/Assets/logo.png";
+import logoName from "../../src/Assets/logo_AF_H.png";
 import "./navbar.css";
 import { NavLink } from "react-router-dom";
 
@@ -19,7 +20,13 @@ const CustomNavbar = () => {
               height="40"
               className="d-inline-block align-top me-2"
             />
-            <span className="title-text fw-bold">Alok Fabrications</span>
+            <img
+              src={logoName}
+              alt="Alok Fabrications Logo"
+              width="auto"
+              height="30"
+              className="d-inline-block align-top me-2 alok_logo_name"
+            />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
