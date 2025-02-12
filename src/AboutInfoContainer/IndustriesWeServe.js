@@ -1,7 +1,6 @@
 import React from "react";
 import TexttileIndustryIcon from "../Assets/icons/Texttile-icon.png";
 import PharmaIcon from "../Assets/icons/pharma-icon.png";
-import TextTileIcon from "../Assets/icons/Texttile-icon.png";
 import defenceIcon from "../Assets/icons/defence-icon.png";
 import DairyIcon from "../Assets/icons/dairy-icon.png";
 import FoodIcon from "../Assets/icons/food-icon.png";

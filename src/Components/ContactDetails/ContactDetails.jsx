@@ -74,7 +74,7 @@ const ContactDetails = () => {
             </div>
             <div>
               <p className="contact_center mt-3 mb-3">
-                <Link to={'/thank-you'} className="contact_center">
+                <Link to={"/thank-you"} className="contact_center">
                   Click Here
                   <img
                     className="cu_icon_blue m-2"
@@ -111,6 +111,7 @@ const ContactDetails = () => {
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
+            title="iframe for the map"
           ></iframe>
         </div>
       </section>
