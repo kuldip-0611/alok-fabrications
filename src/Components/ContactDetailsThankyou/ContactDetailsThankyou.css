@@ -1,0 +1,52 @@
+.bg_gray{
+  background-color: #F9F9F9 !important;
+}
+.Contact_US_Title_th{
+  font-family: Manrope;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;  
+  color: #000000;
+}
+.Contact_US_discription_th{
+  font-family: Manrope;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  
+
+}
+.cu_blue_container_th{
+  position: relative;
+
+  text-align: center;
+}
+.thankyou_letter,
+.thankyou_text_img {
+  max-width: 90%; /* Ensures the image does not exceed the container width */
+  height: auto; /* Maintains aspect ratio */
+  display: block; /* Prevents inline spacing issues */
+  margin: 0 auto; /* Centers the image */
+}
+.thankyou_text_img{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+
+@media (max-width: 768px) {
+
+  .thankyou_text_img {
+    max-width: 33%; /* Ensures the image does not exceed the container width */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Prevents inline spacing issues */
+    margin: 0 auto; /* Centers the image */
+  }
+}
