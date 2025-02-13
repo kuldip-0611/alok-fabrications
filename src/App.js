@@ -4,7 +4,8 @@ import Home from "./Pages/Home";
 import AboutUsLayout from "./Components/AboutUsLayout/AboutUsLayout";
 import { ProductsLayout } from "./Components/ProductsLayout/ProductsLayout";
 import ContactLayout from "./Components/ContactLayout/ContactLayout";
-import ContactThankYouLayout from './Components/ContactThankYouLayout/ContactThankYouLayout';
+import ContactThankYouLayout from "./Components/ContactThankYouLayout/ContactThankYouLayout";
+import ContactFormLayout from "./Components/ContactFormLayout/ContactFormLayout";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/products" element={<ProductsLayout />} />
         <Route path="/contact" element={<ContactLayout />} />
         <Route path="/thank-you" element={<ContactThankYouLayout />} />
+        <Route path="/contact-form" element={<ContactFormLayout />} />
       </Routes>
     </BrowserRouter>
   );

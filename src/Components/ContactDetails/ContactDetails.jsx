@@ -74,7 +74,7 @@ const ContactDetails = () => {
             </div>
             <div>
               <p className="contact_center mt-3 mb-3">
-                <Link to={"/thank-you"} className="contact_center">
+                <Link to={"/contact-form"} className="contact_center">
                   Click Here
                   <img
                     className="cu_icon_blue m-2"

@@ -98,6 +98,10 @@
 
 
 @media (max-width: 768px) {
+
+    .section_Header{
+        max-height: max-content !important;
+    }
     .sidebar {
         transform: translateX(100%);
         position: absolute;
